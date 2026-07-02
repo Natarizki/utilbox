@@ -41,30 +41,35 @@ This copies the utilbox binary and creates a symlink for every applet
 ## usage
 
 Two ways to invoke any applet:
-# via symlink (after install, or manually: ln -s utilbox ls)
+
+- via symlink (after install, or manually: ln -s utilbox ls)
 ls -l
 
-# via subcommand, no symlink needed
+- via subcommand, no symlink needed
 ./utilbox ls -l
 
 ## applets
 
-File & text: ls cat cp mv rm mkdir rmdir ln chmod chown
+• File & text: ls cat cp mv rm mkdir rmdir ln chmod chown
 chgrp touch stat file readlink realpath head tail wc
 grep sort uniq cut tr sed diff basename dirname split
 tac rev nl od comm join paste fold fmt expand
 unexpand column shuf tsort csplit look install link
 unlink truncate shred mktemp mknod mkfifo tar xxd
 hexdump strings sum cksum md5sum sha1sum sha256sum base64
-Shell & process: sh echo printf test expr xargs tee kill
+
+• Shell & process: sh echo printf test expr xargs tee kill
 ps top nice nohup renice ionice timeout watch setsid
 unshare pidof nproc
-System & admin: mount umount chroot sync reboot halt
+
+• System & admin: mount umount chroot sync reboot halt
 poweroff dmesg free uptime vmstat lscpu lsblk losetup
 blockdev swapon swapoff fsync flock umask ulimit useradd
 userdel groupadd groupdel chsh chfn nologin
-Networking: ping netstat ifconfig nc host
-Info & misc: pwd whoami id groups logname hostname uname
+
+• Networking: ping netstat ifconfig nc host
+
+• Info & misc: pwd whoami id groups logname hostname uname
 date sleep true false yes seq cal factor env printenv
 which type arch uuidgen tty clear reset tput stty
 more wall write banner
@@ -100,4 +105,4 @@ Contributions and forks welcome — see [LICENSE](LICENSE)
 
 ## LICENSE
 
-GPL v3 -- see [LICENSE(LICENSE)
+GPL v3 -- see [LICENSE](LICENSE)
