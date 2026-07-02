@@ -88,10 +88,13 @@ Run ./utilbox sh with no arguments for an interactive REPL.
 
 • Single translation unit per applet (src/<name>.c), dispatched through a
 static table in include/applets.h.
+
 • md5sum, sha1sum, and sha256sum implement their hash algorithms from
 scratch (no OpenSSL/libcrypto dependency).
+
 • tar implements the ustar format directly (create/extract/list,
 uncompressed).
+
 • Typo correction uses Levenshtein edit distance against built-in applets
 and everything in $PATH.
 
