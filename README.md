@@ -26,7 +26,7 @@ from-scratch Linux distribution, but usable standalone on any Linux system
 git clone https://github.com/YOUR_USERNAME/utilbox.git
 cd utilbox
 make
-
+```
 Requires a C11 compiler (cc/gcc/clang) and a POSIX-ish libc. Tested on
 Termux (Android/Bionic) and should build cleanly on any standard Linux libc
 (glibc/musl) with minor adjustments.
