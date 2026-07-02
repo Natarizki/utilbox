@@ -1,0 +1,6 @@
+build/
+utilbox
+*.o
+xx00
+xx01
+test.tar
