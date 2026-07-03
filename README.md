@@ -1,3 +1,7 @@
+<p align="center">
+<img src="assets/logo.png" alt="project banner" width=100%>
+</p>
+
 # utilbox
 
 A multi-call Unix utility binary, written entirely from scratch in C — no
